@@ -1,0 +1,27 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Montserrat-Regular.ttf);
+  }
+
+
+body{
+    text-align: center;
+    background-image: url('typewriter-1750268.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:white;
+    font-family: myFirstFont;
+
+}
+.todotask{
+    background-color:black;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+#list{
+    list-style-type: none !important;
+}
+.add{
+    background-color:#1A1E23;
+    color: white;
+}
